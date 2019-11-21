@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   titreBlock: string = 'Posts';
-  date1= new Date('Octobre 24, 2017 11:00:00');
+  date1= new Date('2017-10-24T11:00');
   unJour = 24*60*60*1000
   date2= new Date(Date.now() - this.unJour);
   date3= new Date();
